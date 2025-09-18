@@ -1,15 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import './App.css';
+import UrlInputBox from './components/UrlInuptBox.jsx';
 
 // app - main eiter
 const App = () => {
   return (
+    
     <div>
-      <Routes>
-        <Route path="/" element=""></Route>
-      </Routes>
+      <UrlInputBox />
     </div>
+
+
   );
 };
 
